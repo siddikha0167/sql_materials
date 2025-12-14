@@ -1,0 +1,4 @@
+-- TO WRITE A SQL QUERY TO UPDATE EMPLOYEE TABLE HAVE A SALES REP TO SALES REPRESENTATIBE
+-- write a query to find the total number of orders in the database
+-- caculate the total revenue we have in orders price(msrp)*quantity
+-- write a sql query to find avg of payment amount 

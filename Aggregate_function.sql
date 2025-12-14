@@ -1,0 +1,19 @@
+-- AGGREGATE FUNCTION
+-- MIN()
+SELECT MIN(amount) AS "LOWEST PRICE" FROM payments;
+
+-- MAX()
+SELECT MAX(amount) AS "HIGHEST PRICE" FROM payments;
+
+-- AVG()
+SELECT AVG(amount) AS "AVERAGE PRICE" FROM payments;
+
+-- SUM()
+SELECT SUM(amount) AS "TOTAL PRICE" FROM payments;
+
+-- ALL AGGREGATE FUNCTION IN ONE QUERY
+SELECT MIN(amount) AS "LOWEST PRICE",
+MIN(amount) AS "HIGHEST PRICE",
+AVG(amount) AS "Average PRICE",
+SUM(amount) AS "Total PRICE"
+FROM payments;
